@@ -1,3 +1,4 @@
+-- 
 -- useful for any party persuasion
 select first_name, email, political_correctness, social_impotance from postgres_voters where
 count(lexus_in_driveway) > 1,
@@ -9,3 +10,6 @@ GROUP BY political_corrrectness ORDER BY social_importance;
 
 -- reverse logic for different parties or orientation
 -- donation figures come from FEC Download (API soon)
+--
+--
+
