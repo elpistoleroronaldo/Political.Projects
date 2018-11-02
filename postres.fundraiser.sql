@@ -8,4 +8,4 @@ AND PARTYDONATIONS > 10000,
 GROUP BY political_corrrectness ORDER BY social_importance; 
 
 -- reverse logic for different parties or orientation
---
+-- donation figures come from FEC Download (API soon)
